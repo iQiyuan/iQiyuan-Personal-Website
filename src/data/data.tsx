@@ -36,7 +36,7 @@ import {
  */
 export const homePageMeta: HomepageMeta = {
   title: 'Qiyuan | Robotics & Control',
-  description: "Example site built with Tim Baker's react resume template",
+  description: "A personal website built to record my projects, educations, and experiences in robotics engineering and intelligent control. Explore my portfolio and get in touch for collaborations in the field of robotics and autonomous systems.",
 };
 
 /**
@@ -207,7 +207,7 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'Agustus 2024 - Present',
+    date: 'August 2024 - Present',
     location: 'University of California, Berkeley',
     title: 'Masters in Engineering, Mechanical Engineering',
     content: (
