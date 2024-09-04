@@ -37,3 +37,12 @@ const nextConfig = {
 };
 
 module.exports = nextConfig;
+// module.exports = {
+//   distDir: 'build',
+//   output: 'export',
+//   // images: {
+//   //   unoptimized: true, // 禁用图像优化
+//   // },
+//   basePath: '/iQiyuan.github.io',
+//   assetPrefix: '/iQiyuan.github.io/',
+// };

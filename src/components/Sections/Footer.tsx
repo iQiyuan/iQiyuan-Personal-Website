@@ -30,7 +30,7 @@ const Footer: FC = memo(() => (
           <span className="italic text-yellow">Resume</span>
         </span>
       </a> */}
-      <span className="text-sm text-neutral-700">© Copyright {currentYear} Based on Tim Baker's React Resume, with modifications by Qiyuan Liu</span>
+      <span className="text-sm text-neutral-700">© Copyright {currentYear} Qiyuan Liu</span>
     </div>
   </div>
 ));

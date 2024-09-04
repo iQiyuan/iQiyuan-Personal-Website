@@ -1,1 +1,1 @@
-self.__REACT_LOADABLE_MANIFEST="{\"index.tsx -> ../components/Sections/Header\":{\"id\":\"index.tsx -> ../components/Sections/Header\",\"files\":[\"static/chunks/src_components_Sections_Header_tsx-src_hooks_useNavObserver_tsx.js\"]}}"
+self.__REACT_LOADABLE_MANIFEST="{\"pages\\\\index.tsx -> ../components/Sections/Header\":{\"id\":\"pages\\\\index.tsx -> ../components/Sections/Header\",\"files\":[\"static/chunks/src_components_Sections_Header_tsx-src_hooks_useNavObserver_tsx.js\"]}}"
