@@ -36,7 +36,7 @@ import {
  */
 export const homePageMeta: HomepageMeta = {
   title: 'Qiyuan | Robotics & Control',
-  description: "A personal website built to record my projects, educations, and experiences in robotics engineering and intelligent control. Explore my portfolio and get in touch for collaborations in the field of robotics and autonomous systems.",
+  description: "A personal website built to record my projects, educations, and experiences.",
 };
 
 /**
