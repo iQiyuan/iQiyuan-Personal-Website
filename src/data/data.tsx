@@ -243,7 +243,7 @@ export const experience: TimelineItem[] = [
     ),
   },
   {
-    date: 'May 2022 - June 2023, 13 Months',
+    date: 'May 2022 - December 2022, 8 Months',
     location: 'Surbana Jurong - NTU Corporate Lab',
     title: 'Robotics Engineer & Reseach Assistant',
     content: (
