@@ -234,10 +234,10 @@ export const experience: TimelineItem[] = [
   {
     date: 'December 2022 - May 2023, 6 Months Internship',
     location: 'Satellite Research Center (SaRC)',
-    title: 'Development & Deployment Engineer',
+    title: 'Robotic Engineer',
     content: (
       <p>
-        Deployed a DRL algorithm on the UR3 robot for visual-based pushing and grasping, achieving stable real-time performance and accurate object placement in dynamic environments. Implemented a 3D Human Pose Estimation system to capture and reconstruct human skeletal movements in real-time, enhancing robot interaction. Labeled chip images and trained a vision model to recognize chip structures and automatically generate diagrams, eliminating the need for manual detection.
+        Implemented and deployed a DRL algorithm on the UR3 robot for visual-based pushing and grasping, achieving stable real-time performance and accurate object placement in dynamic environments. Implemented a 3D Human Pose Estimation system to capture and reconstruct human skeletal movements in real-time, enhancing robot interaction. Labeled chip images and trained a vision model to recognize chip structures and automatically generate diagrams, eliminating the need for manual detection.
       </p>
     ),
   },
