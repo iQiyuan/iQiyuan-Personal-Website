@@ -212,8 +212,8 @@ export const education: TimelineItem[] = [
     title: 'Masters in Engineering, Mechanical Engineering',
     content: (
       <>
-        <p>Concentrated in Robotics & Intelligent Control.</p> 
-        <p>Earning Intellectual Property and Entrepreneurship Strategies Certificate.</p>
+        <p>Concentrated in Control of Robotics & Autonomous Systems.</p> 
+        <p>with Intellectual Property & Entrepreneurship Strategies (IPES).</p>
       </>
     )
   },
@@ -224,7 +224,7 @@ export const education: TimelineItem[] = [
     content: (
       <>
         <p>Specialized in Robotics and Mechatronics.</p> 
-        <p>Graduated with Honors (Highest Distinction) in Mechanical Engineering.</p>
+        <p>Graduated with Honors (Highest Distinction).</p>
       </>
     )
   }
@@ -234,11 +234,10 @@ export const experience: TimelineItem[] = [
   {
     date: 'December 2022 - May 2023, 6 Months Internship',
     location: 'Satellite Research Center (SaRC)',
-    title: 'Robotics Development & Deployment Engineer',
+    title: 'Development & Deployment Engineer',
     content: (
       <p>
-        Developed and deployed an advanced Deep Reinforcement Learning based motion imitation model for robotic manipulators and a visual pushing & grasping model on the UR3 manipulator. 
-        Deployed a 3D Human Pose Estimation system within a vision setup to capture and record human movements
+        Deployed a DRL algorithm on the UR3 robot for visual-based pushing and grasping, achieving stable real-time performance and accurate object placement in dynamic environments. Implemented a 3D Human Pose Estimation system to capture and reconstruct human skeletal movements in real-time, enhancing robot interaction. Labeled chip images and trained a vision model to recognize chip structures and automatically generate diagrams, eliminating the need for manual detection.
       </p>
     ),
   },
@@ -248,8 +247,7 @@ export const experience: TimelineItem[] = [
     title: 'Robotics Engineer & Reseach Assistant',
     content: (
       <p>
-        Assisted in the Intelligence Scan to Building Information Model (iScan2BIM) project by contributing to the development of an indoor navigation algorithm and setting up a multi-agent simulation environment. 
-        Also designed a stabilization structure for a ray-cast camera and supported ROS debugging for mobile robot operations.
+        Assisted in developing an indoor navigation algorithm focused on waypoint selection, enhancing pathfinding and obstacle avoidance for autonomous mobile robots. Developed a multi-agent Gazebo simulation environment for testing collaborative tasks, enabling multiple robots to interact for coordination and resource sharing. Managed ROS debugging and troubleshooting to resolve mobile robot operation issues, ensuring seamless integration between software and hardware components.
       </p>
     ),
   },
