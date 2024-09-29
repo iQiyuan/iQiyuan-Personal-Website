@@ -213,6 +213,7 @@ export const education: TimelineItem[] = [
     content: (
       <>
         <p>Concentrated in Control of Robotics & Autonomous Systems.</p> 
+        <p>Awarded Eaton-Hachigian Fellowship.</p>
         <p>with Intellectual Property & Entrepreneurship Strategies (IPES).</p>
       </>
     )
