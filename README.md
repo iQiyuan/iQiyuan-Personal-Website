@@ -24,6 +24,11 @@ yarn dev
 ## Deploy the Website
 It is recommended to first create a GitHub repository, then push the built web project to GitHub. After that, log in to [Vercel](https://vercel.com/) and follow their steps to complete the deployment. Once deployed, a Vercel URL will be generated, which can be used to access the corresponding website. If you want to use a custom domain, purchase the domain first, and then point its DNS to Vercel.
 
+## Update Logs
+
+### 2025.Jan.21
+Added "Task Allocation by Dynamic Voronoi Space Partitioning" project. Updated personal statement. Updated "About me" section. Changed descriptions in "Experince" & "Education" section.
+
 ## Why not GitHub Pages?
 ```bash
 > Image Optimization using the default loader is not compatible with export.
