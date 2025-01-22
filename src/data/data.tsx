@@ -1,7 +1,7 @@
 import {
   AcademicCapIcon,
   // ArrowDownTrayIcon,
-  // BuildingOffice2Icon,
+  BuildingOffice2Icon,
   // CalendarIcon,
   // FlagIcon,
   MapIcon,
@@ -16,6 +16,7 @@ import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import heroImage from '../images/header-background.webp';
 import project_1 from '../images/portfolio/project_1.jpg';
 import project_2 from '../images/portfolio/project_2.jpg';
+import project_3 from '../images/portfolio/project_3.png';
 import profilepic from '../images/profilepic.jpg';
 // import testimonialImage from '../images/testimonial.webp';
 import {
@@ -64,14 +65,18 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        As a Master's student in <strong className="text-stone-100">Mechanical Engineering</strong> at <strong className="text-stone-100">University of California, Berkeley</strong>, 
-        I'm specializing  in <strong className="text-stone-100">Robotics and Intelligent Control</strong>, and driven by a mission to advance autonomous systems. 
-        My work blends technical rigor with creative problem-solving, aimed at making robots smarter and more capable.
+        <strong className="text-stone-100">
+          For me, control systems and robotic design are more than technical endeavors—they are keys to realizing the future. 
+          From agriculture to healthcare, from industrial automation to everyday human life, these technologies have the potential to reshape how we interact with the world. 
+          Currently, as a Master's student at UC Berkeley, I am immersing myself in advanced studies and hands-on projects in robotics and autonomous systems. 
+          This environment not only sharpens my technical skills but also expands my perspective on how engineering can address global challenges.
+        </strong>
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        Looking ahead to my career as a <strong className="text-stone-100">Robotics Engineer</strong>, 
-        I'm eager to develop technologies that enhance both the intelligence and personality of robots.
-        After all, who says robots can't be smart and fun at the same time?
+        <strong className="text-stone-100">
+          Looking ahead, I aim to deepen my work at the intersection of control systems and robotic design, constantly pushing the boundaries of technology. 
+          By combining theoretical knowledge with real-world needs, I hope to collaborate with like-minded individuals to drive the development of next-generation intelligent systems.
+        </strong>
       </p>
     </>
   ),
@@ -95,18 +100,15 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `I am a Robotics Engineer with a strong focus on robotics control and multi-agent systems. 
-  Graduating with the highest distinction in Mechanical Engineering from Nanyang Technological University, 
-  I have developed and deployed advanced algorithms, including Deep Reinforcement Learning (DRL) for robotic manipulation and collaborative systems. 
-  My experience spans implementing complex robotic solutions in real-world environments and leading projects that enhance robotic intelligence and autonomy. 
-  Additionally, I bring strong leadership and management skills, driving successful team collaborations and strategic decision-making.`,
+  description: `In my exploration of mechanical engineering and robotics, I have always been committed to finding a balance between technology and real-world needs. Engineering is not just about optimizing existing technologies but also about the art of solving complex problems. From developing reinforcement learning-controlled robotic arms to designing algorithms for multi-robot task allocation, my work goes beyond the application of tools, focusing instead on the logic and potential behind the systems. Every experience has deepened my understanding that innovation stems not only from technical expertise but also from insight into the essence of a problem. 
+  In these projects, I strive not only for efficient and precise solutions but also to infuse greater flexibility and adaptability into the technology, ensuring it serves complex and dynamic scenarios effectively.`,
   aboutItems: [
     {label: 'Location', text: 'California Bay Area, US', Icon: MapIcon},
     // {label: 'Age', text: '22', Icon: CalendarIcon},
     // {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
     {label: 'Interests', text: 'photography, traveling, Violin', Icon: SparklesIcon},
     {label: 'Study', text: 'University of California, Berkeley', Icon: AcademicCapIcon},
-    // {label: 'Employment', text: 'Instant Domains, inc.', Icon: BuildingOffice2Icon},
+    {label: 'Employment', text: 'Open to Work!', Icon: BuildingOffice2Icon},
   ],
 };
 
@@ -199,6 +201,12 @@ export const portfolioItems: PortfolioItem[] = [
     description: 'Please click this page to visit the official iScan2BIM website. This project was my first exposure to industrial robotics, where I worked as a research assistant. My contributions included assisting in the development of indoor navigation algorithms and path planning, delving deeply into debugging the ROS system, and designing a multi-agent simulation framework.',
     url: 'https://chilx.ai/iscan2bim-saas/',
     image: project_2,
+  },
+  {
+    title: 'Weighted Voronoi Cell-based Task Allocation for Collaborative Objects Retrieval',
+    description: 'Task allocation is a critical component of multi-robot collaboration. Among various approaches, space partitioning methods based on Voronoi cells (VSP) offer a straightforward and effective way to assign tasks. However, traditional VSP-based task allocation methods often lack adaptability to dynamic changes in tasks and environments. To address this limitation, our model introduces a task allocation algorithm that leverages vehicle-centered Voronoi region partitioning. By dynamically adjusting the weights of Voronoi cells, this method adapts to environmental and task changes in real time. As a result, it achieved a 57.14% increase in task efficiency, and a 21.71% improvement in task distribution balance.',
+    url: 'https://github.com/iQiyuan/Task-Allocation-by-Dynamic-Voronoi-Partition',
+    image: project_3,
   }
 ];
 
@@ -208,24 +216,22 @@ export const portfolioItems: PortfolioItem[] = [
 export const education: TimelineItem[] = [
   {
     date: 'August 2024 - Present',
-    location: 'University of California, Berkeley',
-    title: 'Masters in Engineering, Mechanical Engineering',
+    location: 'Masters in Engineering, Mechanical Engineering',
+    title: 'University of California, Berkeley',
     content: (
       <>
-        <p>Concentrated in Control of Robotics & Autonomous Systems.</p> 
-        <p>Awarded Eaton-Hachigian Fellowship.</p>
-        <p>with Intellectual Property & Entrepreneurship Strategies (IPES).</p>
+        <p> Concentrated in Control of Robotics & Autonomous Systems.</p> 
+        <p> Awarded UC Berkeley Eaton-Hachigian Fellowship.</p>
       </>
     )
   },
   {
     date: 'August 2020 - July 2024',
-    location: 'Nanyang Technological University, Singapore',
-    title: 'Bachelor of Egineering, Mechanical Engineering',
+    location: 'Bachelor of Egineering, Mechanical Engineering',
+    title: 'Nanyang Technological University, Singapore',
     content: (
       <>
-        <p>Specialized in Robotics and Mechatronics.</p> 
-        <p>Graduated with Honors (Highest Distinction).</p>
+        <p>Specialized in Robotics and Mechatronics, Graduated with Honors (Highest Distinction).</p> 
       </>
     )
   }
@@ -238,7 +244,7 @@ export const experience: TimelineItem[] = [
     title: 'Robotic Engineer',
     content: (
       <p>
-        Implemented and deployed a DRL algorithm on the UR3 robot for visual-based pushing and grasping, achieving stable real-time performance and accurate object placement in dynamic environments. Implemented a 3D Human Pose Estimation system to capture and reconstruct human skeletal movements in real-time, enhancing robot interaction. Labeled chip images and trained a vision model to recognize chip structures and automatically generate diagrams, eliminating the need for manual detection.
+        Developed a DRL-based robotic control system to ensure highly precise UR3 grasps in real-time and dynamic environments. Implemented a 3D pose estimation algorithm to extract skeletal motion data from video, achieving robust real-time performance. Additionally, designed a vision-based model for automating IC structure recognition, streamlining diagram generation, and removing the need for manual effort.
       </p>
     ),
   },
@@ -248,7 +254,7 @@ export const experience: TimelineItem[] = [
     title: 'Robotics Engineer & Reseach Assistant',
     content: (
       <p>
-        Assisted in developing an indoor navigation algorithm focused on waypoint selection, enhancing pathfinding and obstacle avoidance for autonomous mobile robots. Developed a multi-agent Gazebo simulation environment for testing collaborative tasks, enabling multiple robots to interact for coordination and resource sharing. Managed ROS debugging and troubleshooting to resolve mobile robot operation issues, ensuring seamless integration between software and hardware components.
+        Contributed to an indoor navigation algorithm for iScan2Bim, significantly enhancing pathfinding and operational efficiency. Designed a multi-agent simulation environment for collaborative tasks, facilitating interaction and coordination among robots. Additionally, debugged ROS to address operational challenges, ensuring robust software-hardware integration and optimizing robot performance.
       </p>
     ),
   },
@@ -284,7 +290,7 @@ export const experience: TimelineItem[] = [
 
 export const contact: ContactSection = {
   headerText: 'Get in touch!',
-  description: 'Whether you have a project in mind, need collaboration, or are looking for a dedicated Robotics Engineer, feel free to reach out. I’m always open to discussing new opportunities and forging connections in the robotics and control systems field.',
+  description: 'Whether you have a project in mind, need collaboration, or are looking for a dedicated Robotics Engineer, feel free to reach out. I’m always open to new opportunities and connections in the robotics and control systems field.',
   items: [
     {
       type: ContactType.Email,
