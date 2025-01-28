@@ -3,7 +3,7 @@ Welcome to my personal website repository! This project marks my very first fora
 
 Feel free to explore the code, watch as the website evolves, and reach out if you'd like to connect. I'm always open to engaging with others who share an interest in robotics, web development, or anything in between!
 
-## Visti it here! : https://www.qiyuanliu.com/
+## Visit it here! : https://www.qiyuanliu.com/
 A personal website built to record my projects, educations, and experiences in robotics engineering and intelligent control. Explore my portfolio and get in touch for collaborations in the field of robotics and autonomous systems.
 
 ## Installation & Setups

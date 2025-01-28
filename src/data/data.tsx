@@ -1,6 +1,6 @@
 import {
   AcademicCapIcon,
-  // ArrowDownTrayIcon,
+  ArrowDownTrayIcon,
   BuildingOffice2Icon,
   // CalendarIcon,
   // FlagIcon,
@@ -17,6 +17,7 @@ import heroImage from '../images/header-background.webp';
 import project_1 from '../images/portfolio/project_1.jpg';
 import project_2 from '../images/portfolio/project_2.jpg';
 import project_3 from '../images/portfolio/project_3.jpg';
+import project_4 from '../images/portfolio/project_4.png';
 import profilepic from '../images/profilepic.jpg';
 // import testimonialImage from '../images/testimonial.webp';
 import {
@@ -81,12 +82,12 @@ export const heroData: Hero = {
     </>
   ),
   actions: [
-    // {
-    //   href: '/assets/Resume_Qiyuan LIU.pdf',
-    //   text: 'Resume',
-    //   primary: true,
-    //   Icon: ArrowDownTrayIcon,
-    // },
+    {
+      href: '/assets/Resume_Qiyuan_LIU.pdf',
+      text: 'Resume',
+      primary: false,
+      Icon: ArrowDownTrayIcon,
+    },
     {
       href: `#${SectionId.Contact}`,
       text: 'Contact',
@@ -207,6 +208,12 @@ export const portfolioItems: PortfolioItem[] = [
     description: 'Task allocation is a critical component of multi-robot collaboration. Among various approaches, space partitioning methods based on Voronoi cells (VSP) offer a straightforward and effective way to assign tasks. However, traditional VSP-based task allocation methods often lack adaptability to dynamic changes in tasks and environments. To address this limitation, our model introduces a task allocation algorithm that leverages vehicle-centered Voronoi region partitioning. By dynamically adjusting the weights of Voronoi cells, this method adapts to environmental and task changes in real time. As a result, it achieved a 57.14% increase in task efficiency, and a 21.71% improvement in task distribution balance.',
     url: 'https://github.com/iQiyuan/Task-Allocation-by-Dynamic-Voronoi-Partition',
     image: project_3,
+  },
+  {
+    title: 'Autonomous Tennis Ball Fetcher',
+    description: 'A self-designed mechatronics system capable of fully automated searching and retrieving tennis balls within a designated area.',
+    url: 'https://github.com/iQiyuan/Autonomous-Tennis-Ball-Fetcher',
+    image: project_4,
   }
 ];
 
