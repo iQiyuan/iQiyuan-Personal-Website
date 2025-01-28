@@ -26,6 +26,9 @@ It is recommended to first create a GitHub repository, then push the built web p
 
 ## Update Logs
 
+### 2025.Jan.27
+Added one more project entitled "Autonomous Tennis Ball Fetcher". Fixed a typo in README.md. Added a button to download resume.
+
 ### 2025.Jan.21
 Added "Task Allocation by Dynamic Voronoi Space Partitioning" project. Updated personal statement. Updated "About me" section. Changed descriptions in "Experince" & "Education" section.
 
